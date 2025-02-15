@@ -1,0 +1,120 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="{% static 'trades/css/dark_theme.css' %}">
+    <style>
+        .login-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* center items horizontally */
+            max-width: 400px;
+            margin: 80px auto;
+            padding: 20px;
+            border: 1px solid #444;
+            border-radius: 6px;
+            background-color: #222; /* slightly darker background */
+            text-align: center; /* center text inside container */
+        }
+
+            .login-container img {
+                width: 120px;
+                margin-bottom: 20px;
+            }
+
+            .login-container h1 {
+                margin-bottom: 20px;
+            }
+
+        .form-group {
+            margin-bottom: 12px;
+            width: 100%;
+        }
+
+            .form-group label {
+                font-weight: bold;
+                display: block;
+                margin-bottom: 4px;
+            }
+
+            .form-group input[type="text"],
+            .form-group input[type="password"] {
+                width: 100%;
+                padding: 8px;
+                background-color: #111;
+                color: #fff;
+                border: 1px solid #555;
+                border-radius: 4px;
+                text-align: center; /* center the input text if you like */
+            }
+
+        .login-button {
+            display: block;
+            margin: 10px auto 0 auto; /* center horizontally */
+            background-color: #008c5f;
+            color: #fff;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+            .login-button:hover {
+                background-color: #00a874;
+            }
+
+        .forgot-password, .signup-link {
+            margin-top: 10px;
+        }
+
+            .forgot-password a, .signup-link a {
+                color: #81d4f2;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <!-- RS3 Logo -->
+        <img src="{% static 'images/rs3_logo.webp' %}" alt="RS3 Logo">
+
+        <h1>Login</h1>
+
+        <form method="POST">
+            {% csrf_token %}
+
+            <!-- Username -->
+            <div class="form-group">
+                <label for="id_username">Username</label>
+                <input type="text" name="username" id="id_username" required>
+            </div>
+
+            <!-- Password -->
+            <div class="form-group">
+                <label for="id_password">Password</label>
+                <input type="password" name="password" id="id_password" required>
+            </div>
+
+            <!-- Remember me -->
+            <div class="remember-me">
+                <input type="checkbox" id="remember_me" name="remember_me">
+                <label for="remember_me">Remember me</label>
+            </div>
+
+            <!-- Login button -->
+            <button type="submit" class="login-button">Login</button>
+        </form>
+
+        <p class="forgot-password">
+            <a href="{% url 'password_reset' %}">Forgot your password?</a>
+        </p>
+
+        <p class="signup-link">
+            Don’t have an account? <a href="{% url 'trades:signup_view' %}">Sign up</a>
+        </p>
+    </div>
+
+</body>
+</html>

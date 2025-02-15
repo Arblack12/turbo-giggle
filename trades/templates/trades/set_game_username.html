@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Set Game Username</title>
+    <link rel="stylesheet" href="{% static 'trades/css/dark_theme.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Set Game Username</h1>
+        <form method="post">
+            {% csrf_token %}
+            <label for="id_game_username">Game Username:</label>
+            <input type="text" name="game_username" id="id_game_username" required>
+            <button type="submit">Set Username</button>
+        </form>
+        <p><a href="{% url 'trades:wealth_list' %}">Back to Wealth Data</a></p>
+    </div>
+</body>
+</html>

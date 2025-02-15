@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Confirm Mass Delete</title>
+    <link rel="stylesheet" href="{% static 'trades/css/dark_theme.css' %}">
+</head>
+<body>
+    <div class="container">
+        <!-- NAVIGATION BAR (optional, similar to others) -->
+        <div class="top-nav">
+            <ul class="nav-buttons">
+                <li><a href="{% url 'trades:index' %}">Home</a></li>
+                <li><a href="{% url 'trades:alias_list' %}">Aliases</a></li>
+                <li><a href="{% url 'trades:membership_list' %}">Membership</a></li>
+                <li><a href="{% url 'trades:wealth_list' %}">Wealth</a></li>
+                <li><a href="{% url 'trades:watchlist_list' %}">Watchlist</a></li>
+                <li><a href="{% url 'trades:recent_trades' %}">Recent trades</a></li>
+                {% if user.is_authenticated %}
+                <li><a href="{% url 'trades:account_page' %}">{{ user.username }}</a></li>
+                <li><a href="{% url 'trades:logout_view' %}">Logout</a></li>
+                {% else %}
+                <li><a href="{% url 'trades:login_view' %}">Account</a></li>
+                {% endif %}
+            </ul>
+        </div>
+
+        <h1>Mass Delete Wealth Data</h1>
+        <p>
+            Are you sure you want to delete ALL wealth data records for the year <strong>{{ selected_year }}</strong>?
+        </p>
+        <form method="post">
+            {% csrf_token %}
+            <button type="submit" style="color: red;">Confirm Mass Delete</button>
+            <a href="{% url 'trades:wealth_list' %}?year={{ selected_year }}">Cancel</a>
+        </form>
+    </div>
+</body>
+</html>

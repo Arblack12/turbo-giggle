@@ -1,0 +1,113 @@
+/* trades/static/trades/css/dark_theme.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #2b2b2b; 
+    color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #cfcfcf;
+    margin-bottom: 1em;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+table, th, td {
+    border: 1px solid #3a3a3a;
+}
+
+th {
+    background-color: #414141;
+    color: #f1f1f1;
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+    padding: 8px;
+}
+
+/* Inputs, selects, etc. */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    background-color: #3c3c3c;
+    color: #f1f1f1;
+    border: 1px solid #555;
+    padding: 6px 8px;
+    margin: 4px 0;
+    font-size: 14px;
+}
+
+input[type="submit"],
+button {
+    background-color: #008c5f; /* green-ish */
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #00a874; 
+}
+
+/* Links */
+a {
+    color: #81d4f2; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 1em;
+}
+
+/* HORIZONTAL NAV BAR: remove bullets and make big buttons */
+.top-nav {
+    margin-bottom: 20px;
+}
+
+.top-nav .nav-buttons {
+    list-style: none;  /* no bullets */
+    display: flex;     /* horizontal layout */
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.top-nav .nav-buttons li a {
+    background-color: #008c5f;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.top-nav .nav-buttons li a:hover {
+    background-color: #00a874;
+}

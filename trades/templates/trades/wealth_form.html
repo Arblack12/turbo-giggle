@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ action }} Wealth Data</title>
+    <link rel="stylesheet" href="{% static 'trades/css/dark_theme.css' %}">
+</head>
+<body>
+    <div class="container">
+        <!-- NAVIGATION BAR -->
+        <div class="top-nav">
+            <ul class="nav-buttons">
+                <li><a href="{% url 'trades:index' %}">Home</a></li>
+                <li><a href="{% url 'trades:alias_list' %}">Aliases</a></li>
+                <li><a href="{% url 'trades:membership_list' %}">Membership</a></li>
+                <li><a href="{% url 'trades:wealth_list' %}">Wealth</a></li>
+                <li><a href="{% url 'trades:watchlist_list' %}">Watchlist</a></li>
+                <li><a href="{% url 'trades:recent_trades' %}">Recent trades</a></li>
+                {% if user.is_authenticated %}
+                <li><a href="{% url 'trades:account_page' %}">{{ user.username }}</a></li>
+                <li><a href="{% url 'trades:logout_view' %}">Logout</a></li>
+                {% else %}
+                <li><a href="{% url 'trades:login_view' %}">Account</a></li>
+                {% endif %}
+            </ul>
+        </div>
+
+        <h1>{{ action }} Wealth Data</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">{{ action }} Wealth Data</button>
+        </form>
+        <p><a href="{% url 'trades:wealth_list' %}">Back to Wealth Data List</a></p>
+    </div>
+</body>
+</html>

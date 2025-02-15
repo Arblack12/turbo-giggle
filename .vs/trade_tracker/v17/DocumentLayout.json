@@ -1,0 +1,389 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trade_tracker\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trade_tracker\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\password_reset_request.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\templates\\trades\\password_reset_request.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\templates\\trades\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trade_tracker\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trade_tracker\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\password_reset_confirm.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\templates\\trades\\password_reset_confirm.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\password_reset.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\templates\\trades\\password_reset.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\password_reset_done.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\templates\\trades\\password_reset_done.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\password_reset_complete.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\templates\\trades\\password_reset_complete.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\signup.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\templates\\trades\\signup.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\account.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\templates\\trades\\account.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\user_management.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\templates\\trades\\user_management.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\forms.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\forms.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\alias_list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\templates\\trades\\alias_list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\wealth_list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\templates\\trades\\wealth_list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\wealth_confirm_delete.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\templates\\trades\\wealth_confirm_delete.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\wealth_form.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\templates\\trades\\wealth_form.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\set_game_username.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\templates\\trades\\set_game_username.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\templates\\trades\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templatetags\\extra_filters.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:trades\\templatetags\\extra_filters.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "password_reset_request.html",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\password_reset_request.html",
+              "RelativeDocumentMoniker": "trades\\templates\\trades\\password_reset_request.html",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\password_reset_request.html",
+              "RelativeToolTip": "trades\\templates\\trades\\password_reset_request.html",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-14T15:56:53.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "password_reset_confirm.html",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\password_reset_confirm.html",
+              "RelativeDocumentMoniker": "trades\\templates\\trades\\password_reset_confirm.html",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\password_reset_confirm.html",
+              "RelativeToolTip": "trades\\templates\\trades\\password_reset_confirm.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-14T15:09:01.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "password_reset_done.html",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\password_reset_done.html",
+              "RelativeDocumentMoniker": "trades\\templates\\trades\\password_reset_done.html",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\password_reset_done.html",
+              "RelativeToolTip": "trades\\templates\\trades\\password_reset_done.html",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-14T15:08:48.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "password_reset.html",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\password_reset.html",
+              "RelativeDocumentMoniker": "trades\\templates\\trades\\password_reset.html",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\password_reset.html",
+              "RelativeToolTip": "trades\\templates\\trades\\password_reset.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-14T15:08:34.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "urls.py",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\urls.py",
+              "RelativeDocumentMoniker": "trades\\urls.py",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\urls.py",
+              "RelativeToolTip": "trades\\urls.py",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-02-13T07:44:30.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "urls.py",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trade_tracker\\urls.py",
+              "RelativeDocumentMoniker": "trade_tracker\\urls.py",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trade_tracker\\urls.py",
+              "RelativeToolTip": "trade_tracker\\urls.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-02-14T15:47:09.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "settings.py",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trade_tracker\\settings.py",
+              "RelativeDocumentMoniker": "trade_tracker\\settings.py",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trade_tracker\\settings.py",
+              "RelativeToolTip": "trade_tracker\\settings.py",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-02-12T08:43:47.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "login.html",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\login.html",
+              "RelativeDocumentMoniker": "trades\\templates\\trades\\login.html",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\login.html",
+              "RelativeToolTip": "trades\\templates\\trades\\login.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-14T15:51:32.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "password_reset_complete.html",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\password_reset_complete.html",
+              "RelativeDocumentMoniker": "trades\\templates\\trades\\password_reset_complete.html",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\password_reset_complete.html",
+              "RelativeToolTip": "trades\\templates\\trades\\password_reset_complete.html",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-14T15:09:16.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "signup.html",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\signup.html",
+              "RelativeDocumentMoniker": "trades\\templates\\trades\\signup.html",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\signup.html",
+              "RelativeToolTip": "trades\\templates\\trades\\signup.html",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAQwHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-14T15:05:43.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "account.html",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\account.html",
+              "RelativeDocumentMoniker": "trades\\templates\\trades\\account.html",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\account.html",
+              "RelativeToolTip": "trades\\templates\\trades\\account.html",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-14T14:54:33.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "user_management.html",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\user_management.html",
+              "RelativeDocumentMoniker": "trades\\templates\\trades\\user_management.html",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\user_management.html",
+              "RelativeToolTip": "trades\\templates\\trades\\user_management.html",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-14T14:47:43.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "models.py",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\models.py",
+              "RelativeDocumentMoniker": "trades\\models.py",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\models.py",
+              "RelativeToolTip": "trades\\models.py",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAiwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-02-14T14:46:19.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "wealth_form.html",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\wealth_form.html",
+              "RelativeDocumentMoniker": "trades\\templates\\trades\\wealth_form.html",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\wealth_form.html",
+              "RelativeToolTip": "trades\\templates\\trades\\wealth_form.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-13T07:45:23.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\index.html",
+              "RelativeDocumentMoniker": "trades\\templates\\trades\\index.html",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\index.html",
+              "RelativeToolTip": "trades\\templates\\trades\\index.html",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAnwG4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-12T09:47:36.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "wealth_list.html",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\wealth_list.html",
+              "RelativeDocumentMoniker": "trades\\templates\\trades\\wealth_list.html",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\wealth_list.html",
+              "RelativeToolTip": "trades\\templates\\trades\\wealth_list.html",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAlwIgAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-12T09:25:04.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "views.py",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\views.py",
+              "RelativeDocumentMoniker": "trades\\views.py",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\views.py",
+              "RelativeToolTip": "trades\\views.py",
+              "ViewState": "AgIAAEkCAAAAAAAAAAASwGQCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-02-12T08:44:38.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "wealth_confirm_delete.html",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\wealth_confirm_delete.html",
+              "RelativeDocumentMoniker": "trades\\templates\\trades\\wealth_confirm_delete.html",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\wealth_confirm_delete.html",
+              "RelativeToolTip": "trades\\templates\\trades\\wealth_confirm_delete.html",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-13T07:45:41.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "forms.py",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\forms.py",
+              "RelativeDocumentMoniker": "trades\\forms.py",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\forms.py",
+              "RelativeToolTip": "trades\\forms.py",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-02-13T07:46:29.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "extra_filters.py",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templatetags\\extra_filters.py",
+              "RelativeDocumentMoniker": "trades\\templatetags\\extra_filters.py",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templatetags\\extra_filters.py",
+              "RelativeToolTip": "trades\\templatetags\\extra_filters.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-02-12T09:23:37.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "set_game_username.html",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\set_game_username.html",
+              "RelativeDocumentMoniker": "trades\\templates\\trades\\set_game_username.html",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\set_game_username.html",
+              "RelativeToolTip": "trades\\templates\\trades\\set_game_username.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-13T07:54:35.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "alias_list.html",
+              "DocumentMoniker": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\alias_list.html",
+              "RelativeDocumentMoniker": "trades\\templates\\trades\\alias_list.html",
+              "ToolTip": "D:\\Sync\\Budgeting\\RS3\\trade_tracker\\trades\\templates\\trades\\alias_list.html",
+              "RelativeToolTip": "trades\\templates\\trades\\alias_list.html",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAQwJYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-14T09:41:06.617Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

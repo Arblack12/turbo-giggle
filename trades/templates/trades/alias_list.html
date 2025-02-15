@@ -1,0 +1,150 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alias Page</title>
+    <link rel="stylesheet" href="{% static 'trades/css/dark_theme.css' %}">
+    <style>
+        .top-nav {
+            margin-bottom: 20px;
+        }
+
+            .top-nav .nav-buttons {
+                list-style: none;
+                display: flex;
+                gap: 10px;
+                padding: 0;
+                margin: 0;
+            }
+
+                .top-nav .nav-buttons li a {
+                    background-color: #008c5f;
+                    color: #fff;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    border-radius: 4px;
+                    font-weight: bold;
+                    display: inline-block;
+                }
+
+                    .top-nav .nav-buttons li a:hover {
+                        background-color: #00a874;
+                    }
+
+        .letter-filter {
+            margin-bottom: 10px;
+        }
+
+            .letter-filter a {
+                margin-right: 5px;
+            }
+
+        .thumb-img {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- NAV BAR -->
+        <div class="top-nav">
+            <ul class="nav-buttons">
+                <li><a href="{% url 'trades:index' %}">Home</a></li>
+                <li><a href="{% url 'trades:alias_list' %}">Aliases</a></li>
+                <li><a href="{% url 'trades:membership_list' %}">Membership</a></li>
+                <li><a href="{% url 'trades:wealth_list' %}">Wealth</a></li>
+                <li><a href="{% url 'trades:watchlist_list' %}">Watchlist</a></li>
+                <li><a href="{% url 'trades:recent_trades' %}">Recent trades</a></li>
+
+                {% if user.is_authenticated %}
+                <li><a href="{% url 'trades:account_page' %}">{{ user.username }}</a></li>
+                <li><a href="{% url 'trades:logout_view' %}">Logout</a></li>
+                {% else %}
+                <li><a href="{% url 'trades:login_view' %}">Account</a></li>
+                {% endif %}
+            </ul>
+        </div>
+
+        <h1>Aliases</h1>
+
+        <!-- ALIAS FORM (Add/Edit) -->
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {% if edit_alias %}
+            <input type="hidden" name="alias_id" value="{{ edit_alias.id }}">
+            <h2>Editing Alias #{{ edit_alias.id }}</h2>
+            {% else %}
+            <h2>Add New Alias</h2>
+            {% endif %}
+            {{ form.full_name.label }}<br>
+            {{ form.full_name }}<br>
+
+            {{ form.short_name.label }}<br>
+            {{ form.short_name }}<br>
+
+            {{ form.image_file.label }}<br>
+            {{ form.image_file }}<br>
+
+            <button type="submit">Save Alias</button>
+            <a href="{% url 'trades:alias_list' %}" style="margin-left:10px;">Clear</a>
+        </form>
+
+        <hr>
+
+        <!-- SORT BY LETTER -->
+        <div class="letter-filter">
+            <strong>Filter by letter:</strong>
+            {% for l in letters %}
+            <a href="?letter={{ l }}">{{ l }}</a>
+            {% endfor %}
+            <a href="?letter=">All</a>
+        </div>
+
+        <h2>Alias List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Full Name</th>
+                    <th>Short Name</th>
+                    <th>Image</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for alias in aliases %}
+                <tr>
+                    <td>{{ alias.id }}</td>
+                    <td>{{ alias.full_name }}</td>
+                    <td>{{ alias.short_name }}</td>
+                    <td>
+                        {% if alias.image_file %}
+                        <a href="{{ alias.image_file.url }}" target="_blank">
+                            <img src="{{ alias.image_file.url }}" class="thumb-img" alt="thumb">
+                        </a>
+                        {% endif %}
+                    </td>
+                    <td>
+                        <!-- Edit link -->
+                        <a href="?edit_id={{ alias.id }}">Edit</a>
+
+                        <!-- Delete form -->
+                        <form method="post" style="display:inline;">
+                            {% csrf_token %}
+                            <input type="hidden" name="alias_id" value="{{ alias.id }}">
+                            <button type="submit" name="delete_alias"
+                                    onclick="return confirm('Delete this alias?');">
+                                Delete
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

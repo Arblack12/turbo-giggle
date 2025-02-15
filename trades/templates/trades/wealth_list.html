@@ -1,0 +1,141 @@
+{% load static humanize extra_filters %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wealth Data for {{ selected_year }}</title>
+    <link rel="stylesheet" href="{% static 'trades/css/dark_theme.css' %}">
+    <style>
+        .year-navigation {
+            margin-bottom: 20px;
+        }
+
+            .year-navigation a {
+                margin-right: 10px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+                .year-navigation a.selected {
+                    color: #008c5f;
+                }
+
+        table tr.total-row {
+            font-weight: bold;
+            background-color: #333;
+        }
+
+        .chart-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation Bar -->
+        <div class="top-nav">
+            <ul class="nav-buttons">
+                <li><a href="{% url 'trades:index' %}">Home</a></li>
+                <li><a href="{% url 'trades:alias_list' %}">Aliases</a></li>
+                <li><a href="{% url 'trades:membership_list' %}">Membership</a></li>
+                <li><a href="{% url 'trades:wealth_list' %}">Wealth</a></li>
+                <li><a href="{% url 'trades:watchlist_list' %}">Watchlist</a></li>
+                <li><a href="{% url 'trades:recent_trades' %}">Recent trades</a></li>
+                {% if user.is_authenticated %}
+                <li><a href="{% url 'trades:account_page' %}">{{ user.username }}</a></li>
+                <li><a href="{% url 'trades:logout_view' %}">Logout</a></li>
+                {% else %}
+                <li><a href="{% url 'trades:login_view' %}">Account</a></li>
+                {% endif %}
+            </ul>
+        </div>
+
+        <h1>Wealth Data for {{ selected_year }}</h1>
+
+        <!-- Year Navigation -->
+        <div class="year-navigation">
+            {% for y in years %}
+            <a href="?year={{ y }}" class="{% if y|stringformat:'s' == selected_year|stringformat:'s' %}selected{% endif %}">{{ y }}</a>
+            {% endfor %}
+            <a href="{% url 'trades:wealth_list' %}">All</a>
+        </div>
+
+        <p>
+            <a href="{% url 'trades:wealth_add' %}">Add New Wealth Data</a>
+        </p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Account Name</th>
+                    <th>Year</th>
+                    <th>January</th>
+                    <th>February</th>
+                    <th>March</th>
+                    <th>April</th>
+                    <th>May</th>
+                    <th>June</th>
+                    <th>July</th>
+                    <th>August</th>
+                    <th>September</th>
+                    <th>October</th>
+                    <th>November</th>
+                    <th>December</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for w in wealth_records %}
+                <tr>
+                    <td>{{ w.account_name }}</td>
+                    <td>{{ w.year }}</td>
+                    <td>{{ w.january|blank_zero }}</td>
+                    <td>{{ w.february|blank_zero }}</td>
+                    <td>{{ w.march|blank_zero }}</td>
+                    <td>{{ w.april|blank_zero }}</td>
+                    <td>{{ w.may|blank_zero }}</td>
+                    <td>{{ w.june|blank_zero }}</td>
+                    <td>{{ w.july|blank_zero }}</td>
+                    <td>{{ w.august|blank_zero }}</td>
+                    <td>{{ w.september|blank_zero }}</td>
+                    <td>{{ w.october|blank_zero }}</td>
+                    <td>{{ w.november|blank_zero }}</td>
+                    <td>{{ w.december|blank_zero }}</td>
+                    <td>
+                        <a href="{% url 'trades:wealth_edit' w.id %}">Edit</a> |
+                        <a href="{% url 'trades:wealth_delete' w.id %}" onclick="return confirm('Delete this record?');">Delete</a>
+                    </td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="15">No wealth data available for {{ selected_year }}.</td>
+                </tr>
+                {% endfor %}
+                <!-- Total Combined Row with commas -->
+                <tr class="total-row">
+                    <td colspan="2">Total Combined</td>
+                    <td>{{ monthly_totals.january|floatformat:2|intcomma }}</td>
+                    <td>{{ monthly_totals.february|floatformat:2|intcomma }}</td>
+                    <td>{{ monthly_totals.march|floatformat:2|intcomma }}</td>
+                    <td>{{ monthly_totals.april|floatformat:2|intcomma }}</td>
+                    <td>{{ monthly_totals.may|floatformat:2|intcomma }}</td>
+                    <td>{{ monthly_totals.june|floatformat:2|intcomma }}</td>
+                    <td>{{ monthly_totals.july|floatformat:2|intcomma }}</td>
+                    <td>{{ monthly_totals.august|floatformat:2|intcomma }}</td>
+                    <td>{{ monthly_totals.september|floatformat:2|intcomma }}</td>
+                    <td>{{ monthly_totals.october|floatformat:2|intcomma }}</td>
+                    <td>{{ monthly_totals.november|floatformat:2|intcomma }}</td>
+                    <td>{{ monthly_totals.december|floatformat:2|intcomma }}</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Centered Chart Section -->
+        <div class="chart-container">
+            <h2>Wealth Trend Chart</h2>
+            <img src="{% url 'trades:wealth_chart_all_years' %}?year={{ selected_year }}" alt="Wealth Trend Chart">
+        </div>
+    </div>
+</body>
+</html>

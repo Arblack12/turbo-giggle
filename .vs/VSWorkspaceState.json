@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\trades",
+    "\\trades\\templates",
+    "\\trades\\templates\\trades",
+    "\\trade_tracker"
+  ],
+  "SelectedNode": "\\trade_tracker\\settings.py",
+  "PreviewInSolutionExplorer": false
+}
