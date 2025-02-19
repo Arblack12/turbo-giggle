@@ -89,9 +89,10 @@
         </form>
 
         <!-- Link to the global (all items) profit chart: -->
-        <a href="{% url 'trades:global_profit_chart' %}" style="margin-left:10px;">
+        <a href="{% url 'trades:global_profit_chart' %}?timeframe={{ timeframe|urlencode }}">
             <button>Global Profit Chart</button>
         </a>
+
 
         <!-- Buttons to generate item-specific charts (price & profit),
              only make sense if a search_query is present -->

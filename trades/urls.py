@@ -13,7 +13,7 @@ urlpatterns = [
     path('wealth/delete/<int:pk>/', views.wealth_delete, name='wealth_delete'),
     path('wealth/mass-delete/', views.wealth_mass_delete, name='wealth_mass_delete'),
 
-    # This route is the *wealth* chart across all years (formerly mislabeled “global-profit”).
+    # The *wealth* chart across all years for the logged-in user:
     path('wealth/chart/', views.wealth_chart_all_years, name='wealth_chart_all_years'),
 
     # Transactions
@@ -30,19 +30,16 @@ urlpatterns = [
     # Watchlist
     path('watchlist/', views.watchlist_list, name='watchlist_list'),
 
-    # -------------------------------------------------------------------------
-    # NEW routes for profit charts:
-    # -------------------------------------------------------------------------
-    # 1) Global realized profit chart (for the logged-in user)
+    # Global realized profit chart (for the logged-in user)
     path('charts/global-profit/', views.global_profit_chart, name='global_profit_chart'),
 
-    # Ensure you have EXACTLY this path + name:
+    # Item price chart
     path('charts/item-price/', views.item_price_chart, name='item_price_chart'),
 
-    # Example for item_profit_chart:
+    # Item profit chart
     path('charts/item-profit/', views.item_profit_chart, name='item_profit_chart'),
 
-    # Account & Password Reset (custom view)
+    # Account & Password Reset
     path('account/', views.account_page, name='account_page'),
     path('account/password-reset/', views.password_reset_request, name='password_reset_request'),
 
