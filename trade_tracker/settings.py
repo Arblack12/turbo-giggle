@@ -91,10 +91,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'email-smtp.eu-north-1.amazonaws.com'  # Stockholm region endpoint
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'AKIATG6MG44W6BQW7KD2'      # Provided in the SES console
-EMAIL_HOST_PASSWORD = 'BDWfvngIS2GGQT53WIAzB9VJkWdEx3fBTILEFsr3xBGs'    # Provided in the SES console
-DEFAULT_FROM_EMAIL = 'noreply@rs3-merchanting.co.uk'
+
